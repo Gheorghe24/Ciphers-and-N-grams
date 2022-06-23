@@ -125,19 +125,19 @@ void SolveTask2() {
     }
 
     if (strcmp(cifru, "vigenere") == 0) {
-            int  i , j, s_lungime = strlen(s);
-            char newKey[MAX];
-            for (i = 0, j = 0; i < s_lungime; i++, j++) {
-            if (j == strlen(mesaj))
-                j = 0;
-            newKey[i] = mesaj[j];
-            }
-        newKey[i] = '\0';
-        // declar un vector in care scriu literele majuscule ca
-        // numarul lor in alfabet
-        decriptare_v(s, newKey);
-        printf("%s\n", s);
+        int  i , j, s_lungime = strlen(s);
+        char newKey[MAX];
+        for (i = 0, j = 0; i < s_lungime; i++, j++) {
+        if (j == strlen(mesaj))
+            j = 0;
+        newKey[i] = mesaj[j];
         }
+    newKey[i] = '\0';
+    // declar un vector in care scriu literele majuscule ca
+    // numarul lor in alfabet
+    decriptare_v(s, newKey);
+    printf("%s\n", s);
+    }
 
     if (strcmp(cifru, "addition") == 0) {
         int len_max = 0, len1 = 0, len2 = 0, len_min = 0, c = 0;
@@ -181,7 +181,7 @@ void SolveTask2() {
                     c = 0;
                 }
         }
-        
+
         if (c) {
             rez[i] = '1';
             len_max++;
