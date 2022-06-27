@@ -39,6 +39,8 @@ The "for-loops" have the same purpose as those used in the previous function and
 only thing that differs here is the fact that the key with which they "rotate" each 
 character changes each time depending on the elements of the vector created above called "nrMaj".
 
+## Sum of two Caesar-Cipher numbers
+
 The 3rd sub-item in this task is a bit complicated but it is a simple addition between 
 2 numbers, with the retention of the digit 1 and their addition digit by digit.
 First of all, after reading the second message (number read as string) I had to decrypt these 2 numbers using the Caesar Cipher, using the "decryption_c" function.
@@ -51,11 +53,13 @@ I summed with the help of 2 for-loops (one that goes to the length of the smalle
 I took care to save in case the 2 collected numbers passed
 over 9 .
 
-Variabila "c" devenea 1 in cazul in care rezultatul era mai mare decat 10 si se reseta la 0 cand cele 2 cifre adunate dadeau
-un numar mai mic decat 10.
-La finalul acestor 2 structuri repetitive erau sanse in care am fi ramas cu "1 in minte" si trebuia sa mai adaug cifra 1 
-in vectorul rezultat.
-Am inversat acest vector de numere numit "rez" si am tratat si cazurile in care as fi avut doar cifre de 0 la inceputul numarului rezultat apoi am afisat acest numar.
+My count variable became 1 if the result was greater than 10 and reset to 0 when the 2 
+added digits gave a number less than 10.
+At the end of these 2 repetitive structures there were chances that we would be a 
+result left with "1 in mind" and I had to add to the number 1.
+
+I inverted this vector of numbers called "rez" and I also treated the cases in which I 
+would have had only digits of 0 at the beginning of the resulting number then I displayed this number.
 
 Task 3
 --------
