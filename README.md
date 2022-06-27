@@ -2,11 +2,15 @@
 
 Task 1
 ------
-La primul task am inceput prin a-mi defini unele functii care imi vor fi de folos ulterior in rezolvarea problemei(maxim,afisare,oglindit,etc).
-Am declarat mai apoi variabilele, vectorii in care aveam sa stochez directiile in care trebuie "sa ma misc in matrice" si matricea insasi.
-Cu ajutorul functiei "strtok" am impartit cea de-a 2-a linie in cuvinte si m-am intrebat pentru fiecare din ce tip fac parte acestea.
-Am avut nevoie si de functia "atol" pentru a converti stringurile in numar si apoi sa efectuez operatiile necesare fiecarui tip de cuvant magic. 
-Astfel,in urma fiecarui cuvant magic, de orice tip, aveam salvat in variabila "poz" cifrele corespunzatoare celor 4 directii. 
+At the first task I started by defining some functions that will be useful to me later in solving the problem (maximum, display, mirroring, etc.).
+
+I then declared the variables, the vectors in which I was going to store the directions in which I have to "move in the matrix" and the matrix itself.
+
+With the help of the "strtok" function I divided the second line into words and I wondered for each of which type they are part.
+
+I also needed the "atoll" function to convert the strings to numbers and then perform the operations required for each type of magic word.
+
+Thus, after each magic word, of any type, I had saved in the variable "poz" the numbers corresponding to the 4 directions.
 Toate aceste pozitii le-am stocat intr-un vector numit "dir" si am inceput sa gandesc traversarea matricei. 
 Am luat o structura repetitiva de tip "for" si pentru fiecare numar citit(cuvant magic) ma miscam in matrice 
 in functie de cuvantul decodificat, stiind deja "directiile" in care va trebui sa ma indrept(vectorul "dir") 
