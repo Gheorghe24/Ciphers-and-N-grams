@@ -11,11 +11,11 @@ With the help of the "strtok" function I divided the second line into words and 
 I also needed the "atoll" function to convert the strings to numbers and then perform the operations required for each type of magic word.
 
 Thus, after each magic word, of any type, I had saved in the variable "poz" the numbers corresponding to the 4 directions.
-Toate aceste pozitii le-am stocat intr-un vector numit "dir" si am inceput sa gandesc traversarea matricei. 
-Am luat o structura repetitiva de tip "for" si pentru fiecare numar citit(cuvant magic) ma miscam in matrice 
-in functie de cuvantul decodificat, stiind deja "directiile" in care va trebui sa ma indrept(vectorul "dir") 
-si totodata salvam numarul miscarii in pozitia curenta din matrice
-(i1+2 deoarece am inceput for-ul de la 0 si aveam deja prima pozitie din matrice:"stanga sus"). 
+I stored all these positions in a vector called "dir" and I started thinking about crossing the matrix.
+I took a repetitive structure of type "for" and for each number read (magic word) 
+I move in the matrix,depending on the decoded word, already knowing the "directions" in which I will have to go and also save the number of the movement in the current
+position in the matrix
+
 
 Task 2
 ----------
