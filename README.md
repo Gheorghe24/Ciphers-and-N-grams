@@ -61,7 +61,7 @@ result left with "1 in mind" and I had to add to the number 1.
 I inverted this vector of numbers called "rez" and I also treated the cases in which I 
 would have had only digits of 0 at the beginning of the resulting number then I displayed this number.
 
-Task 3 : N-gram
+Task 3 : 2-gram
 --------
 In task 3 I started by declaring strings and arrays of strings that I will use later 
 in solving.
@@ -71,6 +71,14 @@ another line or I have reached the end of the file.
 With the help of the strtok function we saved each word in the char matrix called 
 "text".
 
-I then declared index or "traffic light" variables with which I would first find out the 2-gram number in the text. With the help of 2 indices (i and j) I started to compare 2 by 2 words and I saved the number of occurrences of each 2-gram using the "c" counter.
+I then declared index or "bool" variables with which I would first find out the 2-gram 
+number in the text. With the help of 2 indices (i and j) I started to compare 2 by 2 
+words and I saved the number of occurrences of each 2-gram using the "c" counter.
 
-Pentru a afisa o singura data 2-gramele am retinut pe parcurs ce comparam in matricea "gasit" 2-gramele.Astfel ma intrebam de fiecare data daca acestea au aparut in matricea "gasit" si treceam mai departe in cazul afirmativ.Am reinitializat vectorul de stringuri "gasit" si am repetat aceleasi operatii insa de data aceasta am afisat 2-gramele si numarul de aparitii ale acestora.Codul nu e cel mai eficient,se repeta o mare parte din program dar functioneaza. 
+In order to display the 2-grams only once, I retained as I compare the 2-grams in the 
+"found" matrix. Thus, I always wondered if they appeared in the "found" matrix and I 
+went on in affirmative case. I reset the "found" string vector and repeated the same 
+operations but this time I displayed the 2-grams and the number of their occurrences. 
+
+The code is not the most efficient, it repeats a large part of the program but it 
+works. 
