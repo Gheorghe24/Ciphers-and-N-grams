@@ -61,7 +61,16 @@ result left with "1 in mind" and I had to add to the number 1.
 I inverted this vector of numbers called "rez" and I also treated the cases in which I 
 would have had only digits of 0 at the beginning of the resulting number then I displayed this number.
 
-Task 3
+Task 3 : N-gram
 --------
-La taskul 3 am inceput prin a declara stringuri si matrice de stringuri pe care le voi folosi ulterior in rezolvare.
-Pentru a citi mai multe linii de cuvinte am folosit un "while" cu ajutorul caruia ma intreb de fiecare data daca mai pot citi o linie sau am ajuns la finalul fisierului. Cu ajutorul functiei strtok am salvat fiecare cuvant in matricea de charuri numita "text". Am declarat mai apoi variabile de tip indici sau "semafor" cu care aveam sa aflu mai intai numarul de 2-grame din cadrul textului.Cu ajutorul a 2 indici (i si j) am inceput sa compar 2 cate 2 cuvinte si am salvat numarul de aparitii a fiecarei 2-grame cu ajutorul contorului "c".Pentru a afisa o singura data 2-gramele am retinut pe parcurs ce comparam in matricea "gasit" 2-gramele.Astfel ma intrebam de fiecare data daca acestea au aparut in matricea "gasit" si treceam mai departe in cazul afirmativ.Am reinitializat vectorul de stringuri "gasit" si am repetat aceleasi operatii insa de data aceasta am afisat 2-gramele si numarul de aparitii ale acestora.Codul nu e cel mai eficient,se repeta o mare parte din program dar functioneaza. 
+In task 3 I started by declaring strings and arrays of strings that I will use later 
+in solving.
+
+To read several lines of words I used a "while" with which I always ask if I can read 
+another line or I have reached the end of the file.
+With the help of the strtok function we saved each word in the char matrix called 
+"text".
+
+I then declared index or "traffic light" variables with which I would first find out the 2-gram number in the text. With the help of 2 indices (i and j) I started to compare 2 by 2 words and I saved the number of occurrences of each 2-gram using the "c" counter.
+
+Pentru a afisa o singura data 2-gramele am retinut pe parcurs ce comparam in matricea "gasit" 2-gramele.Astfel ma intrebam de fiecare data daca acestea au aparut in matricea "gasit" si treceam mai departe in cazul afirmativ.Am reinitializat vectorul de stringuri "gasit" si am repetat aceleasi operatii insa de data aceasta am afisat 2-gramele si numarul de aparitii ale acestora.Codul nu e cel mai eficient,se repeta o mare parte din program dar functioneaza. 
