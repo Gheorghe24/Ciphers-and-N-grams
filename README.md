@@ -10,6 +10,8 @@ With the help of the "strtok" function I divided the second line into words and 
 
 I also needed the "atoll" function to convert the strings to numbers and then perform the operations required for each type of magic word.
 
+Direction matrix
+------------------
 Thus, after each magic word, of any type, I had saved in the variable "poz" the numbers corresponding to the 4 directions.
 I stored all these positions in a vector called "dir" and I started thinking about crossing the matrix.
 
