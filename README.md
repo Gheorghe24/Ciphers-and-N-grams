@@ -1,9 +1,11 @@
 ## Homework in C - Magic Temple
 
-#Resume
-In this project the goal was to implement a bit processor similar to a processor. It will have the ability to decode and execute simple addition, subtraction, multiplication and division instructions.
-
-At the most basic level, information is stored in bits. For a processor this information is divided into 2 categories: instructions and data.
+# Resume
+In this project the goal was to implement a bit processor similar to a processor. It will have the ability to decode and execute simple addition, subtraction, 
+multiplication and division instructions.
+At the most basic level, information is stored in bits. For a processor this information is divided into 2 categories: 
+- instructions 
+- data.
 
 Basically, giving a string of bits, the processor decodes the instruction, and then executes it.
 
